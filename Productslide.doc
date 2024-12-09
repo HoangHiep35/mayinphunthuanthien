@@ -1,0 +1,99 @@
+       <!-- Product slide 2-->
+        <div class="swiper-slide">
+          <div class="product-item image-zoom-effect link-effect">
+            <div class="image-holder position-relative">
+              <a href="index.html">
+                <img src="assets/img/product-item-2.jpg" alt="Máy in phun KGJET 350I" class="product-image img-fluid rounded">
+              </a>
+              <a href="index.html" class="btn-icon btn-wishlist ">
+                <svg width="24" height="24" viewBox="0 0 24 24">
+                  <use xlink:href="#heart"></use>
+                </svg>
+              </a>
+            </div>
+
+            <div class="product-content ">
+              <h5 class="element-title text-uppercase fs-5 mt-3">
+                <a href="index.html" >MÁY IN PHUN KGJET 350I</a>
+              </h5>
+              <a href="#" class="text-decoration-none d-block mt-2" data-after="Thêm vào giỏ hàng">
+                <span>40.000.000 VNĐ</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product slide 3-->
+        <div class="swiper-slide">
+          <div class="product-item image-zoom-effect link-effect">
+            <div class="image-holder position-relative">
+              <a href="index.html">
+                <img src="assets/img/product-item-3.jpg" alt="Máy in phun KGJET 350I" class="product-image img-fluid rounded">
+              </a>
+              <a href="index.html" class="btn-icon btn-wishlist ">
+                <svg width="24" height="24" viewBox="0 0 24 24">
+                  <use xlink:href="#heart"></use>
+                </svg>
+              </a>
+            </div>
+
+            <div class="product-content ">
+              <h5 class="element-title text-uppercase fs-5 mt-3">
+                <a href="index.html" >MÁY IN PHUN KGJET 350I</a>
+              </h5>
+              <a href="#" class="text-decoration-none d-block mt-2" data-after="Thêm vào giỏ hàng">
+                <span>40.000.000 VNĐ</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product slide 4-->
+        <div class="swiper-slide">
+          <div class="product-item image-zoom-effect link-effect">
+            <div class="image-holder position-relative">
+              <a href="index.html">
+                <img src="assets/img/product-item-4.jpg" alt="Máy in phun KGJET 350I" class="product-image img-fluid rounded">
+              </a>
+              <a href="index.html" class="btn-icon btn-wishlist ">
+                <svg width="24" height="24" viewBox="0 0 24 24">
+                  <use xlink:href="#heart"></use>
+                </svg>
+              </a>
+            </div>
+
+            <div class="product-content ">
+              <h5 class="element-title text-uppercase fs-5 mt-3">
+                <a href="index.html" >MÁY IN PHUN KGJET 350I</a>
+              </h5>
+              <a href="#" class="text-decoration-none d-block mt-2" data-after="Thêm vào giỏ hàng">
+                <span>40.000.000 VNĐ</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product slide 10-->
+        <div class="swiper-slide">
+          <div class="product-item image-zoom-effect link-effect">
+            <div class="image-holder position-relative">
+              <a href="index.html">
+                <img src="assets/img/product-item-10.jpg" alt="Máy in phun KGJET 350I" class="product-image img-fluid rounded">
+              </a>
+              <a href="index.html" class="btn-icon btn-wishlist ">
+                <svg width="24" height="24" viewBox="0 0 24 24">
+                  <use xlink:href="#heart"></use>
+                </svg>
+              </a>
+            </div>
+
+            <div class="product-content ">
+              <h5 class="element-title text-uppercase fs-5 mt-3">
+                <a href="index.html" >MÁY IN PHUN KGJET 350I</a>
+              </h5>
+              <a href="#" class="text-decoration-none d-block mt-2" data-after="Thêm vào giỏ hàng">
+                <span>40.000.000 VNĐ</span>
+              </a>
+            </div>
+          </div>
+        </div>
