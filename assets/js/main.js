@@ -3,7 +3,7 @@
   "use strict";
 
   /**
-   * Apply .scrolled class to the body as the page is scrolled down
+   * Áp dụng lớp .Scrolled vào body khi trang được cuộn xuống
    */
   function toggleScrolled() {
     const selectBody = document.querySelector('body');
