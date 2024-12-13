@@ -3,6 +3,12 @@
 # Help: https://bootstrapmade.com/color-system/
 --------------------------------------------------------------*/
 
+.row_left_right{
+    display: flex;
+    justify-content: space-between; /* Căn chỉnh 2 phần tử ở 2 phía */
+    width: 100%; /* Chiếm toàn bộ chiều rộng của phần tử cha */
+  }
+
 .fixed-buttons {
   position: fixed;             /* Giữ cố định tại một vị trí */
   bottom: 20px;                /* Cách đáy màn hình 20px */
@@ -102,15 +108,7 @@
 }
 
 /* product item */
-/* General styles for the new arrival section */
-/* .slideshow .swiper-slide {
-  background-position-x: -300px;
-  transition: background-position-x 1.6s ease-out;
-  background-repeat: no-repeat;background-size: cover;
-}
-.slideshow .swiper-slide.swiper-slide-active {
-  background-position-x: 0px;
-} */
+
 .slideshow .swiper-slide {
   /* background-size: 100%; */
   background-position: center;
