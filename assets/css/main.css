@@ -2,6 +2,7 @@
 # Font & Color Variables
 # Help: https://bootstrapmade.com/color-system/
 --------------------------------------------------------------*/
+
 .fixed-buttons {
   position: fixed;             /* Giữ cố định tại một vị trí */
   bottom: 20px;                /* Cách đáy màn hình 20px */
