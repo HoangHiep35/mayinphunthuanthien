@@ -2,6 +2,68 @@
 # Font & Color Variables
 # Help: https://bootstrapmade.com/color-system/
 --------------------------------------------------------------*/
+.fixed-buttons {
+  position: fixed;             /* Giữ cố định tại một vị trí */
+  bottom: 20px;                /* Cách đáy màn hình 20px */
+  left: 20px;                 /* Cách cạnh phải màn hình 20px */
+  display: flex;               /* Hiển thị các nút theo hàng dọc */
+  flex-direction: column;      /* Các nút xếp dọc */
+  gap: 10px;                   /* Khoảng cách giữa các nút */
+  z-index: 1000;               /* Luôn hiển thị trên các phần tử khác */
+}
+
+.fixed-buttons a {
+  display: block;              /* Đảm bảo liên kết bao quanh hình ảnh */
+  width: 50px;                 /* Kích thước biểu tượng */
+  height: 50px;                /* Kích thước biểu tượng */
+  border-radius: 50%;          /* Bo tròn nút để thành hình tròn */
+  background-color: #fff;      /* Nền trắng để làm nổi bật */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Đổ bóng cho nút */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hiệu ứng mượt */
+}
+
+.fixed-buttons a img {
+  width: 100%;                 /* Hình ảnh vừa với kích thước nút */
+  height: 100%;
+  object-fit: cover;           /* Giữ tỉ lệ hình ảnh */
+}
+
+.fixed-buttons a:hover {
+  transform: scale(1.1);       /* Phóng to nhẹ khi rê chuột */
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2); /* Tăng đổ bóng khi hover */
+}
+
+.fixed-buttons a:active {
+  transform: scale(0.95);      /* Thu nhỏ nhẹ khi bấm giữ */
+}
+
+
+ /* nút button */
+.btn-custom {
+  display: inline-block;        /* Hiển thị giống như một nút */
+  padding: 12px 20px;          /* Khoảng cách bên trong nút */
+  font-size: 16px;             /* Kích thước chữ */
+  font-weight: bold;           /* Chữ đậm */
+  color: #fff;                 /* Màu chữ trắng */
+  background-color: #007bff;   /* Màu nền xanh */
+  border: none;                /* Loại bỏ viền mặc định */
+  border-radius: 5px;          /* Bo tròn các góc */
+  text-align: center;          /* Canh giữa nội dung */
+  text-decoration: none;       /* Loại bỏ gạch chân */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Đổ bóng */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Hiệu ứng */
+}
+
+.btn-custom:hover {
+  background-color: #0056b3;   /* Màu nền khi rê chuột */
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2); /* Tăng đổ bóng khi hover */
+}
+
+.btn-custom:active {
+  background-color: #003f7f;   /* Màu nền khi bấm giữ */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Giảm đổ bóng khi bấm giữ */
+}
+
 
 /* Định dạng vùng tìm kiếm */
 .search-container {
@@ -2252,9 +2314,6 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
-}
 
 /*--------------------------------------------------------------
 # Services Section
